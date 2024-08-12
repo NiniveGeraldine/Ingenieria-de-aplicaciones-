@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Fondo claro */
+}
+
+header {
+    background-color: #ff66b2; /* Rosa suave */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #ff99cc; /* Rosa pálido */
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #ff66b2; /* Rosa suave */
+}
+
+main, section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ff66b2; /* Rosa suave */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ff99cc; /* Rosa pálido */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Fondo alterno en las filas */
+}
+
+tr:hover {
+    background-color: #ff66b2; /* Rosa suave en hover */
+    color: white;
+}
